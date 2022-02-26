@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+.tab{
+    display: none;
+    width: 100%;
+    height: 50%;
+    margin: 0px auto;
+}
+.current{
+    display: block;
+}
+
+body {
+    background: #ccc!important;
+}
+
+form{
+    background: #fff;
+    padding: 30px;
+    margin: 100px auto;
+}
+
+
+.previous {
+    background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin: 0 2px;
+    color: #fff;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.8;
+    padding: 5px
+}
+
+.step.active {
+    opacity: 1;
+    background-color: #563758;
+}
+
+.step.finish {
+    background-color: #4CAF50;
+}
+
+.error {
+    color: #f00;
+}
