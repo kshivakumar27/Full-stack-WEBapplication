@@ -1,0 +1,6 @@
+-msg after registration successfull msg/Fialure
+-no image should shown after new registration /login
+multi form /enctype enctype="multipart/form-data use of this .
+
+$_Files property 
+ 

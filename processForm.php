@@ -41,6 +41,7 @@ require_once "config.php";
       $msg = "File already exists";
       $msg_class = "alert-danger";
     }
+    
     // Upload image only if no errors
     if (empty($error)) {
       //if(move_uploaded_file($_FILES["profileImage"]["tmp_name"], $target_file)) {
