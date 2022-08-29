@@ -1,0 +1,31 @@
+
+
+
+npm cache clean --force
+
+npm install -g @angular/cli@latest
+
+npm config set registry http://registry.npmjs.org/
+
+npm install -g npm  
+
+npm install --legacy-peer-deps 
+npm run start:stage
+
+or
+
+ npm run start:localapi
+
+User Name : Arun.V@straumann.com L&TPassword2020!
+
+Git bash in kubectl folder then
+./forward-consul.sh
+
+UserName : rajiva.ms
+Password; 90DayPassword2020!
+
+
+
+
+
+github working=> services=> umbrella client=> stop and make it manual

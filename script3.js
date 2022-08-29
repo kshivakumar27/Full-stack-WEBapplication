@@ -1,4 +1,3 @@
-
 function triggerClick(e) {
   document.querySelector('#profileImage').click();
 }

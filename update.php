@@ -1,9 +1,14 @@
+<?php
+session_start();
+require_once "header.php";
 
+ 
+?>
 
 
  
 <?php
-session_start();
+//session_start();
  
 // Check if the user is logged in, otherwise redirect to login page
 if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){

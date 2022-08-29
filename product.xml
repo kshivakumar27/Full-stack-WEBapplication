@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<products>
+  <product>
+    <name>Mini Skirt size 38</name>
+    <color>Brown</color>
+    <price>$40.77</price>
+  </product>
+  <product>
+    <name>Women Pant size 39</name>
+    <color>Black</color>
+    <price>$21.45</price>
+  </product>
+  <product>
+    <name>Men Coat size 47</name>
+    <color>Pink</color>
+    <price>$101.50</price>
+  </product>
+</products>

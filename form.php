@@ -48,16 +48,12 @@ require_once "config.php";
               <div class="text-center img-placeholder"  onClick="triggerClick()">
                 <h4>Update image</h4>
               </div>
-              <img src="images/avatar.jpg" onClick="triggerClick()" id="profileDisplay">
+              <img src="images/avatar.jpg" alt="no image" onClick="triggerClick()" id="profileDisplay">
             </span>
             <input type="file" name="profileImage" onChange="displayImage(this)" id="profileImage" class="form-control" style="display: none;">
             <label>Profile Image</label>
           </div>
-    
-<div class="form-group">
-<label>phone no</label>
-<td><input type="text" name="phoneno" placeholder="Your phone no"  class="form-control value="<?php if(isset($phoneno)){echo $phoneno;} ?>" <?php if(isset($code) && $code == 2){ echo "autofocus"; }  ?> /></td>
-</div>
+
           <div class="form-group">
             <button type="submit" name="save_profile" class="btn btn-primary btn-block">Save User</button>
           </div>
