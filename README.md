@@ -37,4 +37,4 @@ Web application with session login and registration with jquery validations and 
 ![All registered users display](https://github.com/kshivakumar27/Full-stack-application-/blob/main/Image/Image11.png)
 
 
-![All ajax and jquery implemented code and examples](https://github.com/kshivakumar27/Full-stack-application-/blob/main/Image/Image3.png)
+![All ajax and jquery implemented code and examples](https://github.com/kshivakumar27/Full-stack-application-/blob/main/Image/Image12.png)
